@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Không tìm thấy trang</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0c0c1d 0%, #1a1a3e 50%, #2d1b69 100%);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+        .error-code {
+            font-size: 8rem;
+            font-weight: 900;
+            background: linear-gradient(45deg, #ff6b6b, #ffa500, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+        .error-message {
+            font-size: 1.5rem;
+            color: #b8b8d4;
+            margin-bottom: 2rem;
+        }
+        .back-link {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(45deg, #6c5ce7, #a29bfe);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .back-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(108, 92, 231, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error-code">404</div>
+        <p class="error-message">Xin lỗi, trang bạn đang tìm kiếm không tồn tại.</p>
+        <a href="/" class="back-link">&#8592; Quay về trang chủ</a>
+    </div>
+</body>
+</html>
